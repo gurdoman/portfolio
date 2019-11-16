@@ -1,0 +1,69 @@
+.experience-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience_company {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  box-shadow: 0px 0px 5px #666;
+  background-color: #fff;
+}
+
+.company_tech{
+  text-align: center;
+}
+
+.company_tech-logo{
+  height: 25px;
+  width: 25px;
+  object-fit: contain;
+  margin: 5px;
+}
+
+.company_logo-container{
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  margin: 10px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.company_logo{
+  height: 90px;
+  width: 90px;
+  object-fit: contain;
+}
+
+.company_name{
+  color: #074F68;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.company_years{
+  font-size: 0.7em;
+  text-align: center;
+  color: #333;
+  padding-bottom : 10px;
+  border-bottom: 1px solid #ccc;
+  width: 80%;
+  margin: auto;
+}
+
+.company_title{
+  color: #5A0866;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.company_responsabilities{
+  margin: 10px;
+  font-size: 0.8em;
+  height: 200px;
+  text-align: justify;
+}

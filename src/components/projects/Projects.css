@@ -1,0 +1,58 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  box-shadow: 0px 0px 5px #666;
+  background-color: #fff;
+  position: relative;
+}
+
+.project_tech{
+  text-align: center;
+}
+
+.project_tech-logo {
+  height: 25px;
+  width: 25px;
+  object-fit: contain;
+  margin: 5px;
+}
+
+.project_image-container{
+  width: 100%;
+  height: 150px;
+}
+
+.project_image{
+  object-fit: contain;
+  width: 280px;
+  height: 150px;
+}
+
+.project_title {
+  color: #074F68;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.project_description {
+  margin: 10px;
+  font-size: 0.8em;
+  height: 150px;
+  text-align: justify;
+}
+
+.project_link {
+  position: absolute;
+  cursor: pointer;
+  width: 50px;
+  bottom: 5px;
+  right: 5px;
+}
