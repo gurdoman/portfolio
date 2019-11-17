@@ -59,7 +59,13 @@ export default function About() {
         )
       }
 
-      <a href={cv} download className="about_download">Download my resume</a>
+      <a href={cv} download className="about_download">
+        <FormattedMessage 
+          id="download-link"
+          defaultMessage="Download my resume"
+          description="Resume download link"
+        />
+      </a>
       
     </div>
   )
