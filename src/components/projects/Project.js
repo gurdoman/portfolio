@@ -25,7 +25,16 @@ export default class Project extends Component {
             description={id }
           />
         </p>
-        <img src={link} className="project_link" onClick={this.gotoPage.bind(this, href)} value={href} alt="link"/>
+        {
+          href !== '' ? 
+          <img 
+            src={link} 
+            className="project_link" 
+            onClick={this.gotoPage.bind(this, href)} 
+            value={href} 
+            alt="link"
+          /> : ''
+        }
       </div>
     )
   }

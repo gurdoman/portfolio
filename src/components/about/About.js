@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css';
 import {FormattedMessage} from 'react-intl';
+import cv from './CV Adrian Rossino Resume Nov19.pdf'
 
 export default function About() {
   const aboutMessages = [
@@ -45,7 +46,7 @@ export default function About() {
   ]
 
   return (
-    <div className="about">
+    <div id="nav-about-link" className="about" >
       {
         aboutMessages.map( item =>
           <p className={item.className} key={item.id}>
@@ -57,6 +58,8 @@ export default function About() {
           </p>
         )
       }
+
+      <a href={cv} download className="about_download">Download my resume</a>
       
     </div>
   )

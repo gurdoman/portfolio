@@ -5,6 +5,9 @@ import About from './components/about/About';
 import VizSensor from 'react-visibility-sensor';
 import Experience from './components/experience/Experience';
 import Projects from './components/projects/Projects';
+import Stacks from './components/stack/Stacks';
+import Education from './components/education/Education';
+import Contact from './components/contact/Contact';
 
 class App extends Component {
   constructor(){
@@ -16,8 +19,13 @@ class App extends Component {
     }
   }
 
-  changeSection = (section) =>{
+  changeSection = (section, id) =>{
     this.setState({section});
+    let destination = document.getElementById(id);
+    window.scrollTo({
+      top: destination.offsetTop - 50,
+      behavior: 'smooth'
+    })
   }
 
   handleClickOutside = () => {
@@ -44,7 +52,7 @@ class App extends Component {
           onChange={(isVisible) =>{
             if(isVisible) this.setState({section: 'ABOUT'})
           }}>
-          <About />
+          <About/>
         </VizSensor>
         <VizSensor
           partialVisibility
@@ -60,7 +68,31 @@ class App extends Component {
           onChange={(isVisible) =>{
             if(isVisible) this.setState({section: 'PROJECTS'})
           }}>
-          <Projects open={this.state.open}/>
+          <Projects />
+        </VizSensor>
+        <VizSensor
+          partialVisibility
+          offset={{top: 200}} 
+          onChange={(isVisible) =>{
+            if(isVisible) this.setState({section: 'TECH'})
+          }}>
+          <Stacks />
+        </VizSensor>
+        <VizSensor
+          partialVisibility
+          offset={{top: 200}} 
+          onChange={(isVisible) =>{
+            if(isVisible) this.setState({section: 'EDUCATION'})
+          }}>
+          <Education />
+        </VizSensor>
+        <VizSensor
+          partialVisibility
+          offset={{top: 200}} 
+          onChange={(isVisible) =>{
+            if(isVisible) this.setState({section: 'CONTACT'})
+          }}>
+          <Contact />
         </VizSensor>
       </div>
     );

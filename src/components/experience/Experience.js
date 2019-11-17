@@ -2,11 +2,11 @@ import React from 'react'
 import './Experience.css';
 import {FormattedMessage} from 'react-intl';
 import Company from './Company';
-import ma from './ma.jpg'
-import meda from './meda.jpg'
-import femexfut from './femexfut.png'
-import pro from './pro.jpg'
-import condu from './condu.png'
+import ma from '../../images/ma.jpg'
+import meda from '../../images/meda.jpg'
+import femexfut from '../../images/femexfut.png'
+import pro from '../../images/pro.jpg'
+import condu from '../../images/condu.png'
 import android from '../../images/android.jpg'
 import apache from '../../images/apache.jpg'
 import bootstrap from '../../images/bootstrap.png'
@@ -82,7 +82,7 @@ export default function Experience() {
 
 
   return (
-    <div className="experience">
+    <div id="nav-experience-link" className="experience">
       <span className="section-title">
         <FormattedMessage 
           id="nav-experience-link"

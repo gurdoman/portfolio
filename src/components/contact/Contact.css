@@ -1,0 +1,25 @@
+.contact-container {
+  height: 350px;
+}
+
+.contact-title{
+  margin-bottom: 45px;
+}
+
+.contact-info {
+  margin: 20px;
+}
+
+.contact-info_icon {
+  font-size: 1.5em;
+  color: #5A0866;
+  margin-right: 15px;
+  vertical-align: middle;
+  display: inline-flex;
+  justify-content: center;
+  width: 35px !important;
+}
+
+.contact-info_link {
+  color: #074F68;
+}

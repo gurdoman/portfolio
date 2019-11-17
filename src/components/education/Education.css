@@ -1,0 +1,40 @@
+.school-container {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  box-shadow: 0px 0px 5px #666;
+  background-color: #fff;
+  position: relative;
+  height: 160px;
+}
+
+.school-container_img-left,
+.school-container_img-right{
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  position: absolute;
+  top: 10px;
+}
+
+.school-container_img-left{
+  left: 10px;
+}
+.school-container_img-right{
+  right: 10px;
+}
+
+.school-container_name {
+  color: #074F68;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 30px 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.school-container_degree{
+  margin: 0 10px 20px 10px;
+  text-align: center;
+}

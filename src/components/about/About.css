@@ -25,3 +25,14 @@
   font-size: 0.75em;
   text-align: justify;
 }
+
+.about_download{
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 20px #000;
+  font-weight: bold;
+  margin: 30px auto;
+  display: block;
+  font-size: 1.4em;
+  text-decoration: underline;
+}

@@ -9,7 +9,7 @@ export default function MenuItem(props) {
   return (
     <li 
       className={"navigation_item "+(props.section === section ? "selected" : "")} 
-      onClick={props.changeSection.bind(this, section)}>
+      onClick={props.changeSection.bind(this, section, id)}>
       <FontAwesomeIcon 
         icon={icon} 
         className="navigation-item_icon"/>

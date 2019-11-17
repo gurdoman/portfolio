@@ -22,7 +22,7 @@ import tango from '../../images/tango.jpg'
 import workorder from '../../images/workorder.jpg'
 import Project from './Project';
 
-export default function Projects(props) {
+export default function Projects() {
   const projects = [
    
     {
@@ -57,7 +57,7 @@ export default function Projects(props) {
       id : 'tango',
       title : "Tango",
       img : tango,
-      href : "http://tango.adrianrossino.com",
+      href : "",
       tech : [jsp, java, html, css, js, mysql]
     },
     {
@@ -71,7 +71,7 @@ export default function Projects(props) {
 
 
   return (
-    <div className="projects">
+    <div id="nav-projects-link" className="projects">
       <span className="section-title">
         <FormattedMessage 
           id="nav-projects-link"
@@ -85,7 +85,6 @@ export default function Projects(props) {
             <Project
               values={project}
               key={project.id}
-              open={props.open}
             />
           )
         }
