@@ -23,3 +23,31 @@
 .contact-info_link {
   color: #074F68;
 }
+
+@media only screen and (min-width: 600px) {
+  .contact-title{
+    margin: 170px 0 0;
+  }
+  .contact-info {
+    margin: 50px auto;
+    font-size: 1.5em;
+    width: 400px;
+  }
+  .contact-info_icon {
+    width: 70px !important;
+    font-size: 3.5em;
+    margin-right: 30px;
+  }
+  .contact-container {
+    height: 1000px;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .contact-title{
+    margin: 170px 0 50px 0;
+  }
+  .contact-container {
+    height: 1300px;
+  }
+}

@@ -23,7 +23,7 @@ class App extends Component {
     this.setState({section});
     let destination = document.getElementById(id);
     window.scrollTo({
-      top: destination.offsetTop - 50,
+      top: destination.offsetTop - (window.innerWidth > 1200 ? 0 : 50) ,
       behavior: 'smooth'
     })
   }
@@ -46,54 +46,12 @@ class App extends Component {
           open={this.state.open}
           openNav={this.openNav}
         />
-        <VizSensor
-          partialVisibility
-          offset={{top: 200}} 
-          onChange={(isVisible) =>{
-            if(isVisible) this.setState({section: 'ABOUT'})
-          }}>
-          <About/>
-        </VizSensor>
-        <VizSensor
-          partialVisibility
-          offset={{top: 200}} 
-          onChange={(isVisible) =>{
-            if(isVisible) this.setState({section: 'EXPERIENCE'})
-          }}>
-          <Experience />
-        </VizSensor>
-        <VizSensor
-          partialVisibility
-          offset={{top: 200}} 
-          onChange={(isVisible) =>{
-            if(isVisible) this.setState({section: 'PROJECTS'})
-          }}>
-          <Projects />
-        </VizSensor>
-        <VizSensor
-          partialVisibility
-          offset={{top: 200}} 
-          onChange={(isVisible) =>{
-            if(isVisible) this.setState({section: 'TECH'})
-          }}>
-          <Stacks />
-        </VizSensor>
-        <VizSensor
-          partialVisibility
-          offset={{top: 200}} 
-          onChange={(isVisible) =>{
-            if(isVisible) this.setState({section: 'EDUCATION'})
-          }}>
-          <Education />
-        </VizSensor>
-        <VizSensor
-          partialVisibility
-          offset={{top: 200}} 
-          onChange={(isVisible) =>{
-            if(isVisible) this.setState({section: 'CONTACT'})
-          }}>
-          <Contact />
-        </VizSensor>
+        <About/>
+        <Experience />
+        <Projects />
+        <Stacks />
+        <Education />
+        <Contact />
       </div>
     );
   }

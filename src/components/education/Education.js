@@ -31,14 +31,16 @@ export default function Education() {
           description="education-title"
         />
       </span>
-      {
-        edu.map(school =>
-          <School 
-            school={school}
-            key={school.id}
-          />
-        )
-      }
+      <div className="schools-container">
+        {
+          edu.map(school =>
+            <School 
+              school={school}
+              key={school.id}
+            />
+          )
+        }
+      </div>
     </div>
   )
 }

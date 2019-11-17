@@ -35,4 +35,59 @@
   display: block;
   font-size: 1.4em;
   text-decoration: underline;
+  cursor: pointer;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .about-greet{
+    font-size: 2.5em;
+  }
+  .about-body{
+    font-size: 1.3em;
+    margin: 20px;
+  }
+  .about_download {
+    font-size: 1.7em;
+    margin: 70px auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .about-body{
+    margin: 20px 150px;
+  }
+} 
+
+@media only screen and (min-width: 1200px) {
+  .about {
+    margin-top: 0;
+    background-size: cover;
+    padding: 120px 0;
+  }
+  .about-greet {
+    font-size: 3.5em;
+  }
+  .about-body {
+    font-size: 1.7em;
+  }
+  .about_download {
+    font-size: 2em;
+    margin: 100px auto;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .about-greet {
+    font-size: 4.2em;
+  }
+  .about-body {
+    font-size: 2em;
+    margin: 30px auto;
+    width: 1100px;
+  }
+  .about_download {
+    font-size: 2.5em;
+    margin: 130px auto;
+  }
 }

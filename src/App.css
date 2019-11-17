@@ -16,8 +16,15 @@ a{
   text-decoration: none;
 }
 
+.st0{display:none;}
+.st1{display:inline;}
+.st2{fill:#074F68;stroke:#074F68;stroke-width:3.1283;stroke-miterlimit:10;}
+.st3{fill:url(#SVGID_1_);}
+.st4{fill:#FCFCFC;}
+.st5{fill:#5A0866;stroke:#5A0866;stroke-width:1.0428;stroke-miterlimit:10;}
+.st6{fill:#074F68;stroke:#074F68;stroke-width:1.0229;stroke-miterlimit:10;}
+
 .App {
-  max-width: 1100px;
   margin: auto;
   width: 100%;
 }
@@ -33,4 +40,18 @@ a{
   display: flex;
   color: #fff;
   text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1200px) {
+  .App {
+    margin-left: 200px;
+    width: calc(100% - 200px);
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .App {
+    margin-left: 400px;
+    width: calc(100% - 400px);
+  }
 }

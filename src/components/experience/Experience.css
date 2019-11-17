@@ -67,3 +67,82 @@
   height: 200px;
   text-align: justify;
 }
+
+@media only screen and (min-width: 600px) {
+  .experience_company {
+    width: 480px;
+  }
+  .company_tech-logo {
+    height: 40px;
+    width: 40px;
+    margin: 10px 5px;
+  }
+  .company_logo-container {
+    width: 130px;
+    height: 130px;
+  }
+  .company_logo {
+    height: 130px;
+    width: 130px;
+  }
+  .company_name {
+    font-size: 2em;
+  }
+  .company_years {
+    font-size: 1em;
+  }
+  .company_title {
+    font-size: 1.6em;
+    margin: 10px 30px;
+  }
+  .company_responsabilities {
+    font-size: 1.1em;
+    margin: 10px 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .experience-container {
+    display: block;
+    margin: auto;
+    width: 990px;
+  }
+  .experience_company {
+    width: 455px;
+    display: inline-flex;
+    margin: 20px;
+    height: 700px;
+  }
+  .company_tech {
+    height: 130px;
+  }
+} 
+
+@media only screen and (min-width: 1700px) {
+  .experience .section-title{
+    margin-bottom: 50px;
+  }
+  .experience-container {
+    display: block;
+    margin: auto;
+    width: 1300px;
+  }
+  .experience_company {
+    width: 390px;
+    height: 800px;
+  }
+  .company_responsabilities {
+    height: 340px;
+  }
+}
+
+@media only screen and (min-width: 2400px) {
+  .experience-container {
+    display: block;
+    margin: auto;
+    width: 2000px;
+  }
+  .experience_company {
+    width: 360px;
+  }
+}

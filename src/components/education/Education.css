@@ -38,3 +38,42 @@
   margin: 0 10px 20px 10px;
   text-align: center;
 }
+
+@media only screen and (min-width: 600px) {
+  .education-container .section-title{
+    margin: 170px 0 0;
+  }
+  .school-container {
+    width: 480px;
+  }
+  .school-container_name {
+    font-size: 2em;
+  }
+  .school-container_img-left, .school-container_img-right{
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .schools-container {
+    display: block;
+    margin: auto;
+    width: 990px;
+  }
+  .school-container {
+    width: 455px;
+    display: inline-flex;
+    margin: 20px;
+    height: 200px;
+  }
+  .school-container_degree{
+    font-size: 1.5em;
+  }
+} 
+
+@media only screen and (min-width: 1700px) {
+  .education-container .section-title{
+    margin: 170px 0 50px 0;
+  }
+}
