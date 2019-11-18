@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70a3204b3b2d7ff5e3ce4d9e9886a3bf",
+    "revision": "d6f9ba1c7bbb57bfc3a476207119b477",
     "url": "/index.html"
   },
   {
-    "revision": "5cc4a23aca5b4f775b1b",
+    "revision": "4c4b3690d704aa738011",
     "url": "/static/css/main.419c9fc0.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.5b5a380e.chunk.js"
   },
   {
-    "revision": "5cc4a23aca5b4f775b1b",
-    "url": "/static/js/main.7d89ce3e.chunk.js"
+    "revision": "4c4b3690d704aa738011",
+    "url": "/static/js/main.ab7532af.chunk.js"
   },
   {
     "revision": "05129d9571d833ef1980",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/3dmx.9aba8f9f.png"
   },
   {
-    "revision": "0dabd4b351318e4b814d59d72b8ed53b",
-    "url": "/static/media/CV Adrian Rossino Resume Nov19.0dabd4b3.pdf"
+    "revision": "86d4486cd60021273144c622c11e74dd",
+    "url": "/static/media/AdrianRossinoCV.86d4486c.pdf"
   },
   {
     "revision": "11d6f90d0d89e3ca82c58d602be6804b",
