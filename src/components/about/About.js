@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css';
 import {FormattedMessage} from 'react-intl';
-import cv from './CV Adrian Rossino Resume Nov19.pdf'
+import cv from './AdrianRossinoCV.pdf'
 
 export default function About() {
   const aboutMessages = [

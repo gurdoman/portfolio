@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Nav from './components/nav/Nav'
 import './App.css';
 import About from './components/about/About';
-import VizSensor from 'react-visibility-sensor';
 import Experience from './components/experience/Experience';
 import Projects from './components/projects/Projects';
 import Stacks from './components/stack/Stacks';
