@@ -24,5 +24,6 @@
   "workorder" : "Work Orders was a small project to show with cards work orders, with the posibility to show the cards ordered by date and to filter the cards by worker name.",
   "upiicsa" : "Bachelors Degree Information and Computer Sciences.",
   "dmx" : "Video game development diploma.",
-  "download-link" : "Download my resume"
+  "download-link" : "Download my resume",
+  "oracle-desc": "Module development for student cloud project, write unit and functional tests for new and legacy modules, review and evaluate code quality across our team, participate in dev shares to communicate new solutions/ideas to other teams."
 }

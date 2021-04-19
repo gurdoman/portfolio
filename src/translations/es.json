@@ -24,5 +24,6 @@
   "workorder" : "Work Orders fue un pequeño proyecto para mostrar en forma de tarjetas órdenes de trabajo, con la posibilidad de mostrarlas en órden por fecha y filtrar por nombre de trabajador.",
   "upiicsa" : "Licenciatura en Ciencias de la Informática.",
   "dmx" : "Diplomado en desarrollo de videojuegos.",
-  "download-link" : "Descarga mi CV"
+  "download-link" : "Descarga mi CV",
+  "oracle-desc": "Desarrollador principal de aplicacione, creación de pruebas unitarias y funcionales, módulos en Oracle Jet para una Student Cloud."
 }

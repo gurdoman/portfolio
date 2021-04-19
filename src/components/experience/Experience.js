@@ -7,6 +7,7 @@ import meda from '../../images/meda.jpg'
 import femexfut from '../../images/femexfut.png'
 import pro from '../../images/pro.jpg'
 import condu from '../../images/condu.png'
+import chai from '../../images/chai.png'
 import android from '../../images/android.jpg'
 import apache from '../../images/apache.jpg'
 import bootstrap from '../../images/bootstrap.png'
@@ -19,20 +20,34 @@ import jquery from '../../images/jquery.png'
 import js from '../../images/js.png'
 import jsp from '../../images/jsp.png'
 import magento from '../../images/magento.png'
+import mocha from '../../images/mocha.png'
 import mysql from '../../images/mysql.png'
 import node from '../../images/node.png'
 import oracle from '../../images/oracle.png'
+import ojet from '../../images/ojet.png'
 import php from '../../images/php.png'
 import plsql from '../../images/plsql.png'
+import scss from '../../images/scss.png'
+import sinon from '../../images/sinon.png'
 import sp from '../../images/sp.png'
 import spring from '../../images/spring.png'
 import sugar from '../../images/sugar.gif'
 import symfony from '../../images/symfony.png'
 import tomcat from '../../images/tomcat.png'
+import ts from '../../images/ts.png'
 
 
 export default function Experience() {
   const experience = [
+    {
+      id: 'oracle',
+      company : "Oracle",
+      years : "07/2020",
+      title : "Applications Developer",
+      tech : [ts, ojet, html, css, js, sinon, chai, mocha, scss ],
+      responsabilities : "oracle-desc",
+      src : oracle
+    },
     {
       id: 'ma',
       company : "Match Analysis",

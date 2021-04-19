@@ -29,7 +29,7 @@ export default function Projects() {
       id : 'tangolive',
       title : "Tango Live",
       img : tangolive,
-      href : "http://www.tango.live",
+      href : "",
       tech : [jsp, java, html, css, js, mysql]
     },
     {

@@ -181,14 +181,14 @@
   }
 }
 
-@media only screen and (max-height: 900px) and (max-width: 1200px) {
+@media only screen and (max-height: 900px) and (max-width: 1200px) and (min-width: 700px){
   .navigation_item {
     height: 60px;
     font-size: 1.4em;
   }
 }
 
-@media only screen and (max-height: 700px) and (max-width: 1200px) {
+@media only screen and (max-height: 700px) and (max-width: 1200px)  and (min-width: 700px){
   .navigation_menu {
     margin-top: 0;
   }

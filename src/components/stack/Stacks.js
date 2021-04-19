@@ -23,6 +23,12 @@ import svn from '../../images/svn.png'
 import symfony from '../../images/symfony.png'
 import tomcat from '../../images/tomcat.png'
 import Stack from './Stack';
+import mocha from '../../images/mocha.png'
+import ojet from '../../images/ojet.png'
+import scss from '../../images/scss.png'
+import ts from '../../images/ts.png'
+import chai from '../../images/chai.png'
+import sinon from '../../images/sinon.png'
 
 export default function Stacks() {
 
@@ -30,9 +36,24 @@ export default function Stacks() {
     {
       "Front-End":[
         {
+          id: 'ts',
+          title : 'TypeScript',
+          img: ts
+        },
+        {
           id: 'react',
           title : 'React',
           img: react
+        },
+        {
+          id: 'scss',
+          title : 'Sass',
+          img: scss
+        },
+        {
+          id: 'ojet',
+          title : 'Oracle JET',
+          img: ojet
         },
         {
           id: 'bootstrap',
@@ -116,6 +137,21 @@ export default function Stacks() {
      },
      {
       "Other":[
+        {
+          id: 'sinon',
+          title : 'Sinon',
+          img: sinon
+        },
+        {
+          id: 'mocha',
+          title : 'Mocha',
+          img: mocha
+        },
+        {
+          id: 'chai',
+          title : 'Chai',
+          img: chai
+        },
         {
           id: 'android',
           title : 'Android Studio',
