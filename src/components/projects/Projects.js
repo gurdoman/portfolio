@@ -36,7 +36,7 @@ export default function Projects() {
       id : 'streamviewer',
       title : "Stream Viewer",
       img : streamviewer,
-      href : "http://streamviewer.adrianrossino.com",
+      href : "",
       tech : [react, java, html, css, js, spring]
     },
     {
@@ -64,7 +64,7 @@ export default function Projects() {
       id : 'workorder',
       title : "Work Orders",
       img : workorder,
-      href : "http://workorders.adrianrossino.com",
+      href : "",
       tech : [react, bootstrap, html, css, js]
     }
   ]
