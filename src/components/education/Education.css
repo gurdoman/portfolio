@@ -6,7 +6,8 @@
   box-shadow: 0px 0px 5px #666;
   background-color: #fff;
   position: relative;
-  height: 160px;
+  min-height: 160px;
+  overflow: hidden;
 }
 
 .school-container_img-left,
@@ -39,6 +40,13 @@
   text-align: center;
 }
 
+.school-container_certificate{
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
 @media only screen and (min-width: 600px) {
   .education-container .section-title{
     margin: 170px 0 0;
@@ -65,7 +73,7 @@
     width: 455px;
     display: inline-flex;
     margin: 20px;
-    height: 200px;
+    min-height: 200px;
   }
   .school-container_degree{
     font-size: 1.5em;

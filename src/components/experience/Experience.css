@@ -33,7 +33,7 @@
 }
 
 .company_logo{
-  height: 90px;
+  max-height: 90px;
   width: 90px;
   object-fit: contain;
 }
@@ -64,8 +64,12 @@
 .company_responsabilities{
   margin: 10px;
   font-size: 0.8em;
-  height: 245px;
+  height: 100%;
   text-align: justify;
+}
+
+.company_list {
+  padding: 0 20px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -82,8 +86,9 @@
     height: 130px;
   }
   .company_logo {
-    height: 130px;
+    max-height: 120px;
     width: 130px;
+    height: 100%;
   }
   .company_name {
     font-size: 2em;
@@ -111,7 +116,7 @@
     width: 455px;
     display: inline-flex;
     margin: 20px;
-    height: 700px;
+    height: 1000px;
   }
   .company_tech {
     height: 130px;
@@ -129,10 +134,10 @@
   }
   .experience_company {
     width: 390px;
-    height: 800px;
+    height: 1100px;
   }
   .company_responsabilities {
-    height: 340px;
+    height: 100%;
   }
 }
 

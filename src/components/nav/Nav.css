@@ -59,6 +59,15 @@
   box-sizing: border-box;
 }
 
+.navigation_item.selected {
+  background-color: #5A0866;
+  color: #fff;
+}
+
+.navigation_item.selected .navigation-item_icon{
+  color: #fff;
+}
+
 .navigation-item_icon{
   color: #5A0866;
 }

@@ -38,6 +38,10 @@
   cursor: pointer;
 }
 
+.about_paragraph{
+  margin-top: 20px;
+}
+
 
 @media only screen and (min-width: 600px) {
   .about-greet{
